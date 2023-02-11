@@ -1,0 +1,57 @@
+#n1{
+    text-size-adjust: 20px;
+    text-decoration-color: #cbced1;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color:darkgreen;
+    
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .divider:after,
+  .divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+  }
+
+  html,body{
+    color: #fff;
+}
+.lni{
+    font-size: 64px;
+}
+
+.bd{
+    background-image: url('../../../assets/images/keralas7.jpg');
+    background-repeat: no-repeat;
+
+}
+ 
+.lo{
+  padding-top: 3%;
+  
+}
+
+body{
+  background-color: rgb(29, 27, 27);
+}
+
+.ma{
+  margin-top: .5%;
+}
+.regform{
+    box-shadow: 0px 8px 9px 0px rgba(69, 69, 69, 0.25);
+}
+
+.sign{
+    color: #000;
+}
+
+

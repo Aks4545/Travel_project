@@ -1,0 +1,17 @@
+<h1 class="text-center ">Districts</h1>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col col-lg-3 " *ngFor="let x of database">
+      <div class="card" style="width: 18.85rem; im">
+          <img src="{{x.image}}" class="card-img-top img" alt="...">
+          <div class="card-body " >
+            <h5 class="card-title animate-charcter">{{x.District}}</h5>
+            <p class="card-text te">{{x.description}}</p>
+            <a (click)="gotohere(x.District)" class="btn btn-primary">explore</a>
+          </div>
+        </div>
+    </div>
+   
+  </div>
+</div>
